@@ -1,0 +1,34 @@
+{
+	"name": "vue-parcel-pug-stylus-startkit",
+	"version": "1.0.0",
+	"description": "Boilerplate for Vue.js project with Parcel, Pug, Stylus",
+	"main": "index.pug",
+	"scripts": {
+		"dev": "parcel index.pug",
+		"watch": "parcel watch index.pug",
+		"test": "echo \"No test provided yet\"",
+		"build": "parcel build index.pug"
+	},
+	"keywords": [
+		"Vue",
+		"JS",
+		"Parcel",
+		"Pug",
+		"Stylus",
+		"Startkit",
+		"Boilerplate"
+	],
+	"alias": {
+		"vue": "./node_modules/vue/dist/vue.common.js"
+	},
+	"author": "SynCap",
+	"license": "ISC",
+	"dependencies": {
+		"vue": "^2.5.22"
+	},
+	"devDependencies": {
+		"parcel-bundler": "^1.11.0",
+		"pug": "^2.0.3",
+		"stylus": "^0.54.5"
+	}
+}
