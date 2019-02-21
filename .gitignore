@@ -1,0 +1,13 @@
+# must have
+node_modules/
+# no editors settings
+.idea/
+.vscode/
+# Parcel working dirs
+.cache/
+/dist/
+# Windows trash
+Thubs.db
+desktop.ini
+# This is bolerplate, locks is superfluous
+*.lock

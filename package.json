@@ -24,11 +24,14 @@
 	"author": "SynCap",
 	"license": "ISC",
 	"dependencies": {
-		"vue": "^2.5.22"
+		"vue": "^2.5.22",
+		"vue-hot-reload-api": "^2.3.2"
 	},
 	"devDependencies": {
+		"@vue/component-compiler-utils": "^2.5.2",
 		"parcel-bundler": "^1.11.0",
 		"pug": "^2.0.3",
-		"stylus": "^0.54.5"
+		"stylus": "^0.54.5",
+		"vue-template-compiler": "^2.6.6"
 	}
 }
